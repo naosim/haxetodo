@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<div id="demo">
+    <ul>
+        <li v-repeat="task: taskViewDataList" class="item-{{$index}}">
+            <a href="#" v-on="click: done(task)">{{$index}} - {{task.title}}_{{task.state}}</a>
+        </li>
+    </ul>
+    <input type="text" v-model="newTaskTitle"><button v-on="click: onAddNewTask">add</button>
+</div>
+
+
+<script src="js/haxe_main.js"></script>
+<script src='js/collection-1.1.min.js'></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/0.12.10/vue.min.js"></script>
+<script src="js/main.js"></script>
