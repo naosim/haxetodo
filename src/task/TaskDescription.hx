@@ -1,4 +1,3 @@
 package task;
 import lib.Value;
-class TaskDescription extends Value<String> {
-}
+class TaskDescription extends Value<String> {}
