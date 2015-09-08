@@ -1,2 +1,2 @@
 -main Main
--js ../main.js
+-js ../dist/js/haxe_main.js
